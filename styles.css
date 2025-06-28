@@ -174,3 +174,16 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+.logo__img-small {
+  height: 42px;
+}
+
+.hero__logo-big {
+  height: 120px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 480px) {
+  .hero__logo-big {
+    height: 80px;
+  }
+}
